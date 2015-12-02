@@ -1,2 +1,1 @@
-# shad-python-hw-3
-text generator
+python counter.py < ../corp.txt | python writer.py 20
