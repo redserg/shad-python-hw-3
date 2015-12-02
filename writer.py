@@ -38,7 +38,9 @@ def write_text(count_dict, one_dict, two_dict, length=10000):
             prev_prev = prev
             prev = word
         text_str += " "
+        text_str += choice(["","\n"], p=[0.9, 0.1]) 
         #text_str += "|"
+
 
     return text_str
 
